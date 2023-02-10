@@ -4,6 +4,7 @@
 
  add the current user to the dialout group. This will allow us to use the USB directly
 
+
 ```bash
 sudo usermod -a -G dialout $USER
 ```
